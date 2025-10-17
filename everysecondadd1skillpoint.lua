@@ -1,4 +1,4 @@
-queue_on_teleport("repeat task.wait() until game:IsLoaded() print('aaaaaaaaaaaaaaaaaaaaa') task.wait(2) loadstring(game:HttpGet('https://pastebin.com/raw/Dn3MeJNV'))()")
+queue_on_teleport("repeat task.wait() until game:IsLoaded() print('aaaaaaaaaaaaaaaaaaaaa') task.wait(2) loadstring(game:HttpGet('https://raw.githubusercontent.com/pa1nx9/ssdinle/main/everysecondadd1skillpoint.lua'))()")
 
 
 local version = "v0.1"
@@ -175,7 +175,7 @@ function MainScript()
 
         local StatDropdown = stats:AddDropdown("StatDropdown", {
             Title = "选择属性倍率",
-            Values = {"1", "10", "100", "1000", "10000", "100000", "100000"},
+            Values = {"1", "10", "100", "1000", "10000", "100000", "1000000", "10000000", "10000000", "100000000", "1000000000"},
             Multi = false,
             Default = 1,
         })
